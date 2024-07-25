@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+         <nav>
+            <a href="index.html"><img src="images/logo_final.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="course.html">OUR OFFERINGS</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+         </nav>
+         <h1>About  Us</h1>
+
+
+    </section>
+    <!----About Us Section-->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Our Vision:</h1>
+                <p>We envision dynamic, personalized education that inspires a love for learning and measurable success, ensuring every learner thrives in a rapidly changing world.</p>
+            </div>
+            <div class="about-col">
+                <img src="images/about.jpg" alt="">
+            </div>
+        </div>
+        <h1>Our Philosophy:</h1>
+        <div class="row">
+            <div class="about-col">
+                <h1>The Super Squad</h1>
+                <p>We are a dynamic alliance of five childhood education experts who have worked with prestigious organizations including Dibber India, MET Rishikul, Ampersand Group, Square Panda India, Kangaroo Kids, and Podar Jumbo Kids and each of us brings our unique expertise to the table. Together, we've meticulously woven a tapestry of learning experiences that transcend traditional boundaries. Our curriculum isn't just about teaching; it's a symphony of tailored adventures, where every discovery sparks a lifelong passion for learning. Join us on a journey where education becomes an exhilarating exploration, paving the way for boundless possibilities in every child's future.</p>
+            </div>
+            <div class="about-col">
+                <img src="images/supsq.jpg" alt="">
+            </div>
+        </div>
+    </section> 
+    <!----Footer----->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Quidem, aperiam! Totam aliquam exercitationem modi facere.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Akshay Mhatre</p>
+</section>
+    
+    <!----JS SCRIPT FOR TOGGLE-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script> 
+</body>
+</html>

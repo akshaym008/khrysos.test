@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOG</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+         <nav>
+            <a href="index.html"><img src="images/logo_final.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="course.html">OUR OFFERINGS</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+         </nav>
+    <h1>Blogs</h1>
+
+    </section> 
+<!-------Content------->
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/certificate.jpg" alt="">
+            <h2>Sample Blogpost</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque at repellat blanditiis exercitationem repellendus autem sed accusantium laboriosam voluptas magni. Commodi quisquam, earum quos repudiandae alias magni debitis inventore ex odit laborum quibusdam ut possimus ipsa, voluptatibus incidunt iusto atque sit, hic blanditiis est nostrum autem temporibus eius fuga! Minus.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque at repellat blanditiis exercitationem repellendus autem sed accusantium laboriosam voluptas magni. Commodi quisquam, earum quos repudiandae alias magni debitis inventore ex odit laborum quibusdam ut possimus ipsa, voluptatibus incidunt iusto atque sit, hic blanditiis est nostrum autem temporibus eius fuga! Minus.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque at repellat blanditiis exercitationem repellendus autem sed accusantium laboriosam voluptas magni. Commodi quisquam, earum quos repudiandae alias magni debitis inventore ex odit laborum quibusdam ut possimus ipsa, voluptatibus incidunt iusto atque sit, hic blanditiis est nostrum autem temporibus eius fuga! Minus.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque at repellat blanditiis exercitationem repellendus autem sed accusantium laboriosam voluptas magni. Commodi quisquam, earum quos repudiandae alias magni debitis inventore ex odit laborum quibusdam ut possimus ipsa, voluptatibus incidunt iusto atque sit, hic blanditiis est nostrum autem temporibus eius fuga! Minus.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque at repellat blanditiis exercitationem repellendus autem sed accusantium laboriosam voluptas magni. Commodi quisquam, earum quos repudiandae alias magni debitis inventore ex odit laborum quibusdam ut possimus ipsa, voluptatibus incidunt iusto atque sit, hic blanditiis est nostrum autem temporibus eius fuga! Minus.</p>
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your Comments"></textarea>
+                    <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                </form>
+            </div>
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>C1</span>
+                <span>5</span>
+            </div>
+            <div>
+                <span>C2</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>C3</span>
+                <span>25</span>
+            </div>
+            <div>
+                <span>C4</span>
+                <span>8</span>
+            </div>
+        </div>
+    </div>
+</section>    
+   
+<!----Footer----->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Quidem, aperiam! Totam aliquam exercitationem modi facere.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Akshay Mhatre</p>
+</section>
+    
+    
+    <!----JS SCRIPT FOR TOGGLE-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script> 
+</body>
+</html>
